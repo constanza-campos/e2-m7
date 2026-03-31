@@ -17,4 +17,4 @@ async function query(text, params) {
   return res
 }
 
-module.exports = { query }
+module.exports = { query, pool };

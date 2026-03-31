@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app_ejercicio2.js",
-    "tareas": "node tareas-db.js"
+    "tareas": "node tareas-db.js",
+    "transferencias": "node transferencias.js"
   },
   "keywords": [],
   "author": "",
