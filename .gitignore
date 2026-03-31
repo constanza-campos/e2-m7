@@ -1,0 +1,14 @@
+# Dependencias (esta carpeta es gigante, no se sube)
+node_modules/
+
+# Variables de entorno (AQUÍ ESTÁ TU CONTRASEÑA, ¡PROHIBIDO SUBIR!)
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
