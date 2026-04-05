@@ -1,4 +1,4 @@
-const { pool } = require('./db'); // Importamos el pool
+const { pool } = require('../config/db'); // Importamos el pool
 
 const realizarTransferencia = async (cuentaOrigenId, cuentaDestinoId, monto) => {
     // 1. Obtener un cliente del pool

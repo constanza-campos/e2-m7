@@ -1,4 +1,4 @@
-const { query } = require('./db'); 
+const { query } = require('../config/db'); 
 
 // 1. FUNCIÓN INSERTAR (CREATE)
 const insertarTarea = async (titulo, descripcion) => {

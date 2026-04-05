@@ -5,9 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app_ejercicio2.js",
-    "tareas": "node tareas-db.js",
-    "transferencias": "node transferencias.js"
+    "start": "node scripts/app.js",
+    "tareas": "node scripts/tareas-db.js",
+    "transferencias": "node scripts/transferencias.js",
+    "productos": "node scripts/app-productos.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,8 @@
   "dependencies": {
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "pg": "^8.20.0"
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8"
   }
 }
