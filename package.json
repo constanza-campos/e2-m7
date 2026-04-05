@@ -8,7 +8,8 @@
     "start": "node scripts/app.js",
     "tareas": "node scripts/tareas-db.js",
     "transferencias": "node scripts/transferencias.js",
-    "productos": "node scripts/app-productos.js"
+    "productos": "node scripts/app-productos.js",
+    "blog": "node scripts/blog.js"
   },
   "keywords": [],
   "author": "",
